@@ -62,7 +62,7 @@ body{
 }
 
 .hero::after{
-  content: url();
+  content: url(../images/Seta\ preta.png);
 }
 
 
