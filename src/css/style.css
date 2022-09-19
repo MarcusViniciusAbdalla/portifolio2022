@@ -43,23 +43,32 @@ body{
   font-size: 3.5rem;
 }
 
+@media(max-width:425px){
+  .header h1 {
+    font-size: 2rem;
+    
+  }
+}
 
 /* HERO */
 
 .hero{
   grid-area: hero;
+  background-color: rgb(144, 74, 194);
   height: 89vh;
   background-size: cover;
   align-items: center;
   display: flex;
   justify-content: center;
   position: relative;
+  
 }
 
 .hero h2{
   font-weight: 500;
   font-size: 3rem;
   padding-left: 20px;
+  color: #fff;
 }
 
 .hero::after{
@@ -80,8 +89,8 @@ body{
   .hero{
     height: 60vh;
   }
-  .hero{
-    font-size: 2.5rem;
+  .hero h2{
+    font-size: 2rem;
   }
 }
 
@@ -90,6 +99,9 @@ body{
 
 .about{
   grid-area: about;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
 }
 
 /* SKILLS */
