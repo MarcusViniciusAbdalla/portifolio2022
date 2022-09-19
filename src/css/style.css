@@ -21,6 +21,7 @@ body{
 .header{
   grid-area: header;
   background-color: #fff;
+
 }
 
 .header .header-container{
@@ -47,7 +48,23 @@ body{
 
 .hero{
   grid-area: hero;
+  height: 89vh;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
+
+.hero h2{
+  font-weight: 500;
+  font-size: 3rem;
+  padding-left: 20px;
+}
+
+.hero::after{
+  content: url();
+}
+
 
 /* ABOUT */
 
