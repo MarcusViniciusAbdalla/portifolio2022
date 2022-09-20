@@ -131,10 +131,20 @@ body{
 .about .item .btn-download{
   font-size: 1.6rem;
   align-self: flex-start;
+  background-color: #407BFF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s; 
 }
 
 .about .item .btn-download:hover{
   font-weight: 700;
+  background-color: #0440c1;
+  font-size: 2rem;
 }
 
 .about .image{
