@@ -21,7 +21,7 @@ body{
 .header{
   grid-area: header;
   background-color: #fff;
-
+  
 }
 
 .header .header-container{
@@ -30,6 +30,7 @@ body{
   justify-content: space-between;
   align-items: center;
   min-height: 75px;
+  
 }
 
 .header h1 {
